@@ -1,0 +1,25 @@
+#Junk Files
+*.DS_Store
+[Tt]humbs.db
+
+#Visual Studio Files
+[Oo]bj
+[Bb]in
+[Dd]ebug
+[Bb]uild/
+*.exe
+*.pdb
+*.[Cc]ache
+*.bak
+*.swp
+*.vspscc
+*.vssscc
+*.bak.*
+*.bak
+
+#Other
+.svn
+
+# Include DLLs if they're in the NuGet packages directory
+!/packages/*/lib/*.dll
+!/packages/*/lib/*/*.dll
